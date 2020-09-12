@@ -8,7 +8,11 @@ class Home extends Component {
         return (
             <div>
                 <div>
-                    <NavLink to="/home/homeA">HomeA</NavLink>
+                    <NavLink to="/home/homeA/999">HomeA</NavLink>
+                    {/*<NavLink to={{*/}
+                    {/*    pathname: "/home/homeA", query: {name: "小明"}*/}
+                    {/*}}>HomeA</NavLink>*/}
+
                     <NavLink to="/home/homeB">HomeB</NavLink>
                 </div>
                 主页
